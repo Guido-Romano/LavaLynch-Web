@@ -1,0 +1,23 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:blueviolet;
+}
+
+a, svg {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+a:hover {
+    color: white;
+    font-weight: 600;
+}
+
+
+@media (max-width: 576px) {
+    .navbar-toggler {
+        filter: invert();
+    }
+}

@@ -1,0 +1,11 @@
+.rounded.shadow-sm {
+    transition: transform 0.3s ease;
+   
+}
+
+  .rounded.shadow-sm:hover {
+  transform: scale(1.1); 
+
+}
+
+

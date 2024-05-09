@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+   
+   
+  }
+  
+  ::selection {
+    background-color: rgba(137, 43, 226, 0.75);
+    color: white;
+  }
+
+
+  * {
+    color: blueviolet;
+  }
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ /* Estilos para elementos <h2> y <p> dentro de elementos con la clase .overlay-black */
+ .overlay-black h2,
+ .overlay-black p {
+     color: white; /* Establece el color de los elementos <h2> y <p> dentro de .overlay-black a blanco */
+ }
+
+.overlay-black {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 99;
+    height: auto;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, 30%); 
+    }
+    
+
+    @media (max-width: 1650px) {
+        .overlay-black {
+            transform: translate(-50%, 5%); 
+            }       
+    }
+
+    @media (max-width: 1440px) {
+        .overlay-black {
+            transform: translate(-50%, -10%); 
+            }       
+    }
+
+/* Estilos para pantallas medianas a grandes (tablet) */
+@media (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (móvil) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .overlay-black {
+        transform: translate(-50%, -12%); 
+        }  
+
+}

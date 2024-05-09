@@ -1,0 +1,15 @@
+
+.auto-con{
+    width: 800px; /* Ancho del contenedor igual a la imagen */
+    height: 300px; /* Altura del contenedor igual a los 300 píxeles que deseas mostrar */
+    overflow: hidden; /* Oculta el desbordamiento para recortar la imagen */
+}
+
+.image {
+    width: 800px; /* Mantén el ancho original de la imagen */
+    height: 800px; /* Mantén la altura original de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    object-position: 0 -200px; /* Desplaza la imagen hacia arriba para ocultar 250px en la parte superior e inferior */
+    overflow-x: hidden;
+    z-index: -999;
+}

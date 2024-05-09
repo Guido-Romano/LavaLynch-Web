@@ -1,0 +1,8 @@
+.whatsapp-icon-green {
+    position: fixed;
+    bottom: 130px;
+    right: 10px;
+    z-index: 999;
+    border-radius: 100%;
+    overflow: hidden;
+  }

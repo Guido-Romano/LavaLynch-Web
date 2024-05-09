@@ -1,0 +1,12 @@
+<div #pElement class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <h2 class="mb-4 text-center">{{ h2 }}</h2>
+                <p *ngFor="let paragraph of p.split('\n\n')">
+                    {{ paragraph }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
