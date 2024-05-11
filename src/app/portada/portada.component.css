@@ -4,7 +4,8 @@
     align-items: center;
 }
 
-.styled-video {
+video {
     filter: hue-rotate(190deg) saturate(2) brightness(0.8);
     display: block;
 }
+

@@ -8,4 +8,16 @@
 
 }
 
+@media (max-width: 576px) {
+ 
+  .rounded.shadow-sm {
+    transform: scale(0.75); 
+  }
+
+  .rounded.shadow-sm:hover {
+    transform: scale(0.82); 
+  
+  }
+}
+
 

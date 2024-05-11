@@ -13,3 +13,16 @@
     overflow-x: hidden;
     z-index: -999;
 }
+
+
+@media (max-width: 576px) {
+
+  
+
+    .image {
+        height: 600px;
+        width: 600px;
+        object-position: 0 -50px; 
+    }
+}
+
