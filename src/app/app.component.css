@@ -17,11 +17,11 @@
   
   width: 80vw;
   height: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
