@@ -1,32 +1,23 @@
-.card {
-  background-color: rgba(137, 43, 226, 0.03);
-  margin-bottom: -17px;
-  margin-left: -17px;
-  margin-right: -17px;
-  overflow: hidden;
-}
-
-.card-body {
-  background-color: rgba(137, 43, 226, 0.03);
-}
 
 .form-group {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
+  overflow: hidden;
 }
 
 .enviar {
   color: #ffffff;
-  margin: auto; /* Simplificado para centrar horizontalmente */
+  margin: auto; 
   display: block;
   transition: background-color 0.3s ease;
   margin-top: 25px;
   border-radius: 10px;
   background-color: rgba(80, 0, 300, 0.5);
-  border: none; /* Eliminado para eliminar los bordes del botón */
-  padding: 10px 20px; /* Ajustado para un mejor aspecto */
+  border: none; 
+  padding: 10px 20px; 
+  
 }
 
 .enviar:hover {
@@ -34,20 +25,15 @@
 }
 
 .enviar[disabled] {
-  pointer-events: none; /* Desactiva los eventos de puntero cuando el botón está deshabilitado */
-  background-color: rgba(80, 0, 300, 0.35); /* Mantén el color de fondo original */
-
+  pointer-events: none; 
+  background-color: rgba(80, 0, 300, 0.35); 
 }
 
-/* Cambiar el color de los placeholders a "blueviolet" */
 input::placeholder,
 textarea::placeholder {
   color: rgba(137, 43, 226, 0.35);
   font-style: italic;
 }
-
-/* Cambiar el color de los bordes a "blueviolet" cuando los campos están enfocados */
-
 
 h4 {
   color: blueviolet;
@@ -56,6 +42,7 @@ h4 {
 @media (max-width: 576px) {
   .form-group {
     width: 80%;
+    overflow: hidden;
   }
 }
 

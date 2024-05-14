@@ -1,25 +1,40 @@
 .navbar {
-    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     background-color:rgba(137, 43, 226, 0.5);
+    position: absolute;
+
+  
 }
 
-a, i {
-    color: rgba(255, 255, 255, 0.9);
+a, i, span {
+    color: white;
+    opacity: 0.85;
 }
 
+span:hover,
 a:hover,
 i:hover {
     color: white;
-    font-weight: 600;
+    opacity: 1; 
+    transform: translate(0px, 1px); 
+}
+
+.navbar-toggler {
+ filter: invert();
 }
 
 
-@media (max-width: 576px) {
-    .navbar-toggler {
-        filter: invert();
+.nav-link {
+    scroll-behavior: smooth;
+}
+
+
+@media (min-width: 1080px) {
+    .nav-link {
+        margin-left: -140px;
+        margin-right: 140px;
     }
 }
+
 

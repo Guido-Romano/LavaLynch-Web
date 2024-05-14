@@ -1,23 +1,47 @@
 .rounded.shadow-sm {
     transition: transform 0.3s ease;
+    transform: scale(0.9); 
    
 }
 
-  .rounded.shadow-sm:hover {
-  transform: scale(1.1); 
+ 
+.rounded.shadow-sm:hover {
+  transform: scale(1); 
 
 }
+
+
+.inst {
+  border-radius: 20px;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); 
+  height: 325px;
+  width: 325px;
+}
+
+
+@media (min-width: 768px) {
+ .inst {
+    height: 400px;
+    width: 400px;
+  }
+}
+
 
 @media (max-width: 576px) {
  
   .rounded.shadow-sm {
-    transform: scale(0.75); 
-  }
+    transition: transform 0.3s ease;
+    transform: scale(0.55); 
+    margin: -40px;
+   
+}
 
-  .rounded.shadow-sm:hover {
-    transform: scale(0.82); 
-  
-  }
+ 
+.rounded.shadow-sm:hover {
+  transform: scale(0.6); 
+
+}
+
 }
 
 

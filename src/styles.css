@@ -10,7 +10,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-   
+    background-color: rgba(137, 43, 226, 0.03) !important;
 }
 
 ::selection {
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h5 {
         position: relative;
         width: 90% !important;
         transform: none !important;
-        margin: 0 auto; /* Centra horizontalmente el elemento */
+        margin: 0 auto;
         left: 0;
         background-color: rgba(137, 43, 226, 0.5);
     }
