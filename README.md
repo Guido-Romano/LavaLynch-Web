@@ -1,4 +1,4 @@
 ng build 
 git add . 
-git commit -m "update"
+git commit -m "Terminada"
  git push origin main

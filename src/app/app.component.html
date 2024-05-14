@@ -1,9 +1,10 @@
 <app-navbar></app-navbar>
 <app-portada></app-portada>
+
 <app-logo></app-logo>
 
-<div class="container my-5">
-  <div id="envio-retiro-domicilio" class="row my-5">
+<div class="container mt-5">
+  <div id="envio-retiro-domicilio" class="row">
       <div class="col-md-8 col-sm-12 my-2">
           <app-text [h2]="'Visita nuestra lavandería'"
               [p]="'Te traemos la solución definitiva para el cuidado de tu ropa. Nos encargamos de todo, para que puedas enfocarte en lo que realmente importa de tu día a día. Lavamos tu ropa de forma rápida y eficiente, sin comprometer la calidad de tus prendas.\n\n
@@ -17,12 +18,17 @@
           <app-map></app-map>
       </div>
   </div>
-  <div class="row my-5"> 
+  <div class="row mt-5"> 
     <div class="col-12">
           <app-text [h2]="'Envío y retiro a Domicilio'"
               [p]="'Con nuestro servicio de envío y retiro a domicilio, llevar tu ropa a lavar nunca había sido tan fácil y conveniente. Nos destacamos como un servicio verdaderamente excepcional, marcando la diferencia con un enfoque único y una atención incomparable.\n\n
               Nos encargamos de recoger tus prendas en la puerta de tu hogar y devolvértelas limpias y frescas en el horario que mejor te convenga. Olvídate de perder tiempo en desplazamientos y largas esperas, nosotros nos encargamos de todo el proceso logístico para que solo te preocupes por disfrutar de tus prendas impecables. Además, nuestro compromiso con la puntualidad y la calidad garantiza que cada entrega sea una experiencia sin contratiempos. \n\n🚘 Retiro y entrega a domicilio GRATIS. '">
           </app-text>
+        </div>
+      </div>
+   
+
+
           <ul>
             <li data-aos="fade-right" data-aos-delay="250">abrigos</li>
             <li data-aos="fade-right" data-aos-delay="500">acolchados</li>
@@ -31,9 +37,10 @@
             <li data-aos="fade-right" data-aos-delay="1250">servicios de tintorería.</li>
           </ul>
         </div>
-      </div>
      
-      <div class="row justify-content-center my-5">
+
+      <div class="container">
+      <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12  mt-4  d-flex justify-content-center" data-aos="zoom-out"  data-aos-duration="1000">
             <img src="../assets/hobbies01.png" class="inst">
         </div>
@@ -47,9 +54,9 @@
   </div>
 
 
-<div class="text-center justify-content-center">
-  <div class="row my-5">
-      <div class="col-12 my-5">
+<div class="container text-center justify-content-center" >
+  <div class="row mt-5" id="reseñas">
+      <div class="col-12 my-2">
 <app-text 
   [h2]="'Algunas reseñas'" 
   [p]="'En Lavalynch, la opinión de nuestros clientes es el corazón de nuestro negocio. Valoramos profundamente cada palabra que ustedes comparten con nosotros, ya que sabemos que sus comentarios y experiencias son fundamentales para nuestro crecimiento.\n\n
@@ -63,7 +70,7 @@
 
 
 
-<div class="container mb-5 mx-auto" id="reseñas">
+<div class="container mx-auto">
   <div class="row">
     <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
      
@@ -87,8 +94,8 @@
   </div>
 </div>
 
-<div class="container my-5">
-<div class="row justify-content-center my-5">
+<div class="container my-4">
+<div class="row justify-content-center">
   <div class="col-md-4 col-sm-12  mt-4  d-flex justify-content-center"data-aos="zoom-out"  data-aos-duration="1000">
       <img src="../assets/Captura001.png" class="inst">
   </div>
@@ -110,12 +117,6 @@
       <p data-aos="fade-right" data-aos-delay="500">👉🏻 Te pasamos un presupuesto</p>
       <p data-aos="fade-right" data-aos-delay="750">🚘 Coordinamos el retiro y la entrega</p>
       <p data-aos="fade-right" data-aos-delay="1000">😊 Te relajas y esperas a qué llegue todo</p>
-      
-
-
-
-  
-     
     </div>
   </div>
 </div>

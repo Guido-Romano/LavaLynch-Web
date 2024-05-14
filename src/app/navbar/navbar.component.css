@@ -37,4 +37,9 @@ i:hover {
     }
 }
 
+@media (max-width: 576px) {
+    span {
+        font-size: 13px;
+    }
+}
 
