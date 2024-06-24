@@ -1,4 +1,4 @@
 ng build 
 git add . 
-git commit -m "SEO fixing 3"
+git commit -m "imgs png a webp"
  git push origin main
