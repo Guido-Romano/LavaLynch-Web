@@ -1,0 +1,7 @@
+<section class="container my-4">
+  <div class="row justify-content-center">
+    <div *ngFor="let image of images" class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+      <img [src]="image.src" class="inst" [alt]="image.alt">
+    </div>
+  </div>
+</section>

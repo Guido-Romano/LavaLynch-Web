@@ -14,6 +14,15 @@ import { FooterComponent } from './footer/footer.component';
 import { WspIconComponent } from './wsp-icon/wsp-icon.component';
 import { FormComponent } from './form/form.component';
 
+import { ReviewComponent } from './review/review.component';
+
+import { MotionWordsBottomComponent } from './motion-words-bottom/motion-words-bottom.component';
+import { BannerFormComponent } from './banner-form/banner-form.component';
+import { MotionWordsTopComponent } from './motion-words-top/motion-words-top.component';
+import { PicturesTopComponent } from './pictures-top/pictures-top.component';
+import { PicturesBottomComponent } from './pictures-bottom/pictures-bottom.component';
+import { FrontPageComponent } from './front-page/front-page.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +35,16 @@ import { FormComponent } from './form/form.component';
     CarouselComponent,
     FooterComponent,
     WspIconComponent,
-    FormComponent
+    FormComponent,
+
+    ReviewComponent,
+
+    MotionWordsBottomComponent,
+    BannerFormComponent,
+    MotionWordsTopComponent,
+    PicturesTopComponent,
+    PicturesBottomComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,

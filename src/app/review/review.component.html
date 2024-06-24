@@ -1,0 +1,14 @@
+<section class="container mx-auto">
+  <div class="row">
+    <div
+      *ngFor="let imagen of imagenes"
+      class="col-md-6 col-sm-12 d-flex justify-content-center"
+      [attr.data-aos]="imagen.aos"
+      data-aos-duration="1000"
+    >
+      <img [src]="imagen.src" class="rounded shadow-sm img-fluid" [alt]="imagen.alt">
+    </div>
+  </div>
+</section>
+
+

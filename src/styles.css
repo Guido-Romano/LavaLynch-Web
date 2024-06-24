@@ -10,7 +10,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
-    background-color: rgba(137, 43, 226, 0.03) !important;
+    background-color: rgba(137, 43, 226, 0.03);
 }
 
 ::selection {
@@ -20,7 +20,10 @@ body {
 
 * {
     color: blueviolet;
-    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 
 h1 {
@@ -51,23 +54,19 @@ p {
     z-index: 99;
     height: auto;
     position: absolute;
-    left: 50%; 
-    transform: translate(-50%, 30%); 
-}
-
-h1, h2, h3, h4, h5, h5 {
-    font-weight: bold !important; 
+    left: 50%;
+    transform: translate(-50%, 30%);
 }
 
 @media (max-width: 1650px) {
     .overlay-black {
-        transform: translate(-50%, 5%); 
+        transform: translate(-50%, 5%);
     }       
 }
 
 @media (max-width: 1440px) {
     .overlay-black {
-        transform: translate(-50%, -10%); 
+        transform: translate(-50%, -10%);
     }       
 }
 
@@ -101,19 +100,49 @@ h1, h2, h3, h4, h5, h5 {
     }
 
     .overlay-black {
-        transform: translate(-50%, -12%); 
+        transform: translate(-50%, -12%);
     }  
 }
 
 @media (max-width: 576px) {
     .overlay-black {
         position: relative;
-        width: 90% !important;
-        transform: none !important;
+        width: 90%;
+        transform: none;
         margin: 0 auto;
         left: 0;
         background-color: rgba(137, 43, 226, 0.5);
     }
+
+    ul li {
+        box-sizing: border-box;
+    }
 }
 
+.rounded.shadow-sm {
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+}
 
+.rounded.shadow-sm:hover {
+    transform: scale(1);
+}
+
+.inst {
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    width: 80vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .inst {
+        height: 400px;
+        width: 400px;
+    }
+}

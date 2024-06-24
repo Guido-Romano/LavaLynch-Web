@@ -1,7 +1,7 @@
 
 <header>
 <app-navbar></app-navbar>
-<app-portada></app-portada>
+<app-front-page></app-front-page>
 <app-logo></app-logo>
 </header>
 
@@ -30,31 +30,10 @@
     </article>
   </section>
 
-  <section>
-    <ul>
-      <li class="service-item" data-aos="fade-right" data-aos-delay="250">abrigos</li>
-      <li class="service-item" data-aos="fade-right" data-aos-delay="500">acolchados</li>
-      <li class="service-item" data-aos="fade-right" data-aos-delay="750">frazadas</li>
-      <li class="service-item" data-aos="fade-right" data-aos-delay="1000">prendas delicadas</li>
-      <li class="service-item" data-aos="fade-right" data-aos-delay="1250">servicios de tintorería.</li>
-    </ul>
-  </section>
+<app-motion-words-top></app-motion-words-top>
 
-  <router-outlet></router-outlet>
+<app-pictures-top></app-pictures-top>
 
-  <section class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/hobbies01.webp" class="inst" alt="Imagen de hobbies">
-      </div>
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/captura002.webp" class="inst" alt="Captura de pantalla 002">
-      </div>
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/hobbies03.webp" class="inst" alt="Imagen de hobbies 03">
-      </div>
-    </div>
-  </section>
 
   <section class="container text-center justify-content-center">
     <div class="row mt-5" id="reseñas">
@@ -70,67 +49,17 @@
     </div>
   </section>
 
-  <section class="container mx-auto">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-        <img src="../assets/res01.webp" class="rounded shadow-sm" alt="Reseña 01">
-      </div>
-      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../assets/res02.webp" class="rounded shadow-sm" alt="Reseña 02">
-      </div>
-    </div>
+  <app-review></app-review>
+  <app-pictures-bottom></app-pictures-bottom>
+   <app-motion-words-bottom></app-motion-words-bottom>
 
-    <div class="row my-2">
-      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-        <img src="../assets/res03.webp" class="rounded shadow-sm" alt="Reseña 03">
-      </div>
-      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-        <img src="../assets/res04.webp" class="rounded shadow-sm" alt="Reseña 04">
-      </div>
-    </div>
-  </section>
 
-  <section class="container my-4">
-    <div class="row justify-content-center">
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/Captura001.webp" class="inst" alt="Captura 001">
-      </div>
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/hobbies02.webp" class="inst" alt="Hobbies 02">
-      </div>
-      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
-        <img src="../assets/Captura003.webp" class="inst" alt="Captura 003">
-      </div>
-    </div>
-  </section>
 
-  <section class="container text-center justify-content-center">
-    <div class="row my-5">
-      <div class="col-12">
-        <h2>Con Lava Lynch tené siempre listas tus prendas favoritas...</h2>
-        <p>Para encontrarnos es fácil, Indalecio Gomez 4190 (Villa Lynch) (copia y pega en maps)</p>
-        <p data-aos="fade-right" data-aos-delay="250"><br> 📱 Nos escribís o llamas</p>
-        <p data-aos="fade-right" data-aos-delay="500">👉🏻 Te pasamos un presupuesto</p>
-        <p data-aos="fade-right" data-aos-delay="750">🚘 Coordinamos el retiro y la entrega</p>
-        <p data-aos="fade-right" data-aos-delay="1000">😊 Te relajas y esperas a qué llegue todo</p>
-      </div>
-    </div>
-  </section>
 
-  <section id="formulario-contacto" class="container my-5 mx-auto overlay-black">
-    <div class="row">
-      <article class="formulario-contacto col-12">
-        <app-text 
-          [h2]="'Servicio para Empresas'" 
-          [p]="'En LavaLynch, ofrecemos un servicio personalizado de lavandería que se adapta a tus necesidades específicas. Entendemos la importancia de mantener la ropa limpia y fresca, especialmente en entornos como geriátricos, hospitales y hogares de niños, donde la higiene es fundamental. Por eso, garantizamos resultados impecables y satisfacción del cliente en cada lavado.\n\n
-          Además, brindamos descuentos especiales para empresas del sector de la salud y hogares de niños, como muestra de nuestro compromiso con su labor. Creemos que al proporcionar un servicio de calidad a precios accesibles, podemos contribuir al bienestar de la comunidad y facilitar la labor de aquellos que cuidan de otros.'">
-        </app-text>
-      </article>
-    </div>
-  </section>
 </main>
 
 <footer>
+  <app-banner-form></app-banner-form>
 <app-carousel></app-carousel>
 <app-form></app-form>
 <app-wsp-icon></app-wsp-icon>

@@ -1,0 +1,15 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    overflow-x: hidden;
+}
+
+video {
+    filter: hue-rotate(190deg) saturate(2) brightness(0.8);
+    display: block;
+    
+}
+
