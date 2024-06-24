@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lavalynch-2.0:build:production"
+              "browserTarget": "lavalynch-rework:build:production"
             },
             "development": {
-              "browserTarget": "lavalynch-2.0:build:development"
+              "browserTarget": "lavalynch-rework:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lavalynch-2.0:build"
+            "browserTarget": "lavalynch-rework:build"
           }
         },
         "test": {
