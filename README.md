@@ -1,4 +1,4 @@
 ng build 
 git add . 
-git commit -m "fixing img comp."
+git commit -m "pre. fixing footer"
  git push origin main

@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pictures-bottom',
-  templateUrl: './pictures-bottom.component.html',
-  styleUrls: ['./pictures-bottom.component.css']
+  templateUrl: './pictures-bottom.component.html'
 })
 export class PicturesBottomComponent {
   images = [

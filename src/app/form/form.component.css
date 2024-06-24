@@ -1,48 +1,47 @@
-
 .form-group {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  overflow: hidden;
-}
-
-.enviar {
-  color: #ffffff;
-  margin: auto; 
-  display: block;
-  transition: background-color 0.3s ease;
-  margin-top: 25px;
-  border-radius: 10px;
-  background-color: rgba(80, 0, 300, 0.5);
-  border: none; 
-  padding: 10px 20px; 
-  
-}
-
-.enviar:hover {
-  background-color: rgba(80, 0, 300, 0.75);
-}
-
-.enviar[disabled] {
-  pointer-events: none; 
-  background-color: rgba(80, 0, 300, 0.35); 
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: rgba(137, 43, 226, 0.35);
-  font-style: italic;
-}
-
-h4 {
-  color: blueviolet;
-}
-
-@media (max-width: 576px) {
-  .form-group {
-    width: 80%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
     overflow: hidden;
   }
-}
-
+  
+  .enviar {
+    color: #ffffff;
+    margin: auto; 
+    display: block;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(80, 0, 300, 0.5);
+    border: none; 
+    padding: 10px 20px; 
+    
+  }
+  
+  .enviar:hover {
+    background-color: rgba(80, 0, 300, 0.75);
+  }
+  
+  .enviar[disabled] {
+    pointer-events: none; 
+    background-color: rgba(80, 0, 300, 0.35); 
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: rgba(137, 43, 226, 0.35);
+    font-style: italic;
+  }
+  
+  h4 {
+    color: blueviolet;
+  }
+  
+  @media (max-width: 576px) {
+    .form-group {
+      width: 80%;
+      overflow: hidden;
+    }
+  }
+  

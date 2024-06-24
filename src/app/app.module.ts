@@ -4,9 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { PortadaComponent } from './portada/portada.component';
 import { TextComponent } from './text/text.component';
-import { LogoComponent } from './portada/logo/logo.component';
+import { LogoComponent } from './logo/logo.component';
 import { MapComponent } from './map/map.component';
 import { AutoComponent } from './auto/auto.component';
 import { CarouselComponent } from './carousel/carousel.component';
@@ -27,7 +26,6 @@ import { FrontPageComponent } from './front-page/front-page.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    PortadaComponent,
     TextComponent,
     LogoComponent,
     MapComponent,
