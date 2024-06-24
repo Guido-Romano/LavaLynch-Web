@@ -1,146 +1,142 @@
+
+<header>
 <app-navbar></app-navbar>
 <app-portada></app-portada>
-
 <app-logo></app-logo>
+</header>
 
-<div class="container mt-5">
-  <div id="envio-retiro-domicilio" class="row">
-      <div class="col-md-8 col-sm-12 my-2">
-          <app-text [h2]="'Visita nuestra lavandería'"
-              [p]="'Te traemos la solución definitiva para el cuidado de tu ropa. Nos encargamos de todo, para que puedas enfocarte en lo que realmente importa de tu día a día. Lavamos tu ropa de forma rápida y eficiente, sin comprometer la calidad de tus prendas.\n\n
-              Somos una empresa familiar con más de 20 años de experiencia. Nos hemos consolidado como expertos en todo tipo de tejidos, lo que nos permite ofrecer resultados impecables a precios verdaderamente accesibles.\n\n
-              Te brindamos un servicio es express y personalizado, ya que comprendemos la importancia de tu tiempo y nos esforzamos para ayudarte a simplificar tu vida, ocupándonos de cada detalle.\n\n
-              Nuestro propósito es que puedas disfrutar de prendas impecables mientras te concentras en lo verdaderamente importante.\n\n
-              👉🏻 Lunes a Viernes de 9 a 14 hs y 16 a 18 hs / Sábados (9 a 13 hs)'">
-          </app-text>
+<main class="container mt-5">
+  <section id="envio-retiro-domicilio" class="row">
+    <article class="envio-retiro col-md-8 col-sm-12 my-2">
+      <app-text [h2]="'Visita nuestra lavandería'"
+                [p]="'Te traemos la solución definitiva para el cuidado de tu ropa. Nos encargamos de todo, para que puedas enfocarte en lo que realmente importa de tu día a día. Lavamos tu ropa de forma rápida y eficiente, sin comprometer la calidad de tus prendas.\n\n
+                Somos una empresa familiar con más de 20 años de experiencia. Nos hemos consolidado como expertos en todo tipo de tejidos, lo que nos permite ofrecer resultados impecables a precios verdaderamente accesibles.\n\n
+                Te brindamos un servicio express y personalizado, ya que comprendemos la importancia de tu tiempo y nos esforzamos para ayudarte a simplificar tu vida, ocupándonos de cada detalle.\n\n
+                Nuestro propósito es que puedas disfrutar de prendas impecables mientras te concentras en lo verdaderamente importante.\n\n
+                👉🏻 Lunes a Viernes de 9 a 14 hs y 16 a 18 hs / Sábados (9 a 13 hs)'">
+      </app-text>
+    </article>
+    <aside class="map col-md-4 col-sm-12 mt-3 d-flex justify-content-center">
+      <app-map></app-map>
+    </aside>
+  </section>
+
+  <section class="row mt-5"> 
+    <article class="envio-retiro-domicilio col-12">
+      <app-text [h2]="'Envío y retiro a Domicilio'"
+                [p]="'Con nuestro servicio de envío y retiro a domicilio, llevar tu ropa a lavar nunca había sido tan fácil y conveniente. Nos destacamos como un servicio verdaderamente excepcional, marcando la diferencia con un enfoque único y una atención incomparable.\n\n
+                Nos encargamos de recoger tus prendas en la puerta de tu hogar y devolvértelas limpias y frescas en el horario que mejor te convenga. Olvídate de perder tiempo en desplazamientos y largas esperas, nosotros nos encargamos de todo el proceso logístico para que solo te preocupes por disfrutar de tus prendas impecables. Además, nuestro compromiso con la puntualidad y la calidad garantiza que cada entrega sea una experiencia sin contratiempos.\n\n🚘 Retiro y entrega a domicilio GRATIS.'">
+      </app-text>
+    </article>
+  </section>
+
+  <section>
+    <ul>
+      <li class="service-item" data-aos="fade-right" data-aos-delay="250">abrigos</li>
+      <li class="service-item" data-aos="fade-right" data-aos-delay="500">acolchados</li>
+      <li class="service-item" data-aos="fade-right" data-aos-delay="750">frazadas</li>
+      <li class="service-item" data-aos="fade-right" data-aos-delay="1000">prendas delicadas</li>
+      <li class="service-item" data-aos="fade-right" data-aos-delay="1250">servicios de tintorería.</li>
+    </ul>
+  </section>
+
+  <router-outlet></router-outlet>
+
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/hobbies01.png" class="inst" alt="Imagen de hobbies">
       </div>
-      <div class="col-md-4 col-sm-12 mt-3 d-flex justify-content-center">
-          <app-map></app-map>
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/captura002.png" class="inst" alt="Captura de pantalla 002">
       </div>
-  </div>
-  <div class="row mt-5"> 
-    <div class="col-12">
-          <app-text [h2]="'Envío y retiro a Domicilio'"
-              [p]="'Con nuestro servicio de envío y retiro a domicilio, llevar tu ropa a lavar nunca había sido tan fácil y conveniente. Nos destacamos como un servicio verdaderamente excepcional, marcando la diferencia con un enfoque único y una atención incomparable.\n\n
-              Nos encargamos de recoger tus prendas en la puerta de tu hogar y devolvértelas limpias y frescas en el horario que mejor te convenga. Olvídate de perder tiempo en desplazamientos y largas esperas, nosotros nos encargamos de todo el proceso logístico para que solo te preocupes por disfrutar de tus prendas impecables. Además, nuestro compromiso con la puntualidad y la calidad garantiza que cada entrega sea una experiencia sin contratiempos. \n\n🚘 Retiro y entrega a domicilio GRATIS. '">
-          </app-text>
-        </div>
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/hobbies03.png" class="inst" alt="Imagen de hobbies 03">
       </div>
-   
-
-
-          <ul>
-            <li data-aos="fade-right" data-aos-delay="250">abrigos</li>
-            <li data-aos="fade-right" data-aos-delay="500">acolchados</li>
-            <li data-aos="fade-right" data-aos-delay="750">frazadas</li>
-            <li data-aos="fade-right" data-aos-delay="1000">prendas delicadas</li>
-            <li data-aos="fade-right" data-aos-delay="1250">servicios de tintorería.</li>
-          </ul>
-        </div>
-     
-
-      <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-4 col-sm-12  mt-4  d-flex justify-content-center" data-aos="zoom-out"  data-aos-duration="1000">
-            <img src="../assets/hobbies01.png" class="inst">
-        </div>
-        <div class="col-md-4 col-sm-12 mt-4  d-flex justify-content-center" data-aos="zoom-out"  data-aos-duration="1000">
-            <img src="../assets/captura002.png" class="inst">
-        </div>
-        <div class="col-md-4 col-sm-12 mt-4  d-flex justify-content-center" data-aos="zoom-out"  data-aos-duration="1000">
-            <img src="../assets/hobbies03.png" class="inst">
-        </div>
     </div>
-  </div>
+  </section>
 
+  <section class="container text-center justify-content-center">
+    <div class="row mt-5" id="reseñas">
+      <article class="reseñas col-12 my-2">
+        <app-text 
+          [h2]="'Algunas reseñas'" 
+          [p]="'En Lavalynch, la opinión de nuestros clientes es el corazón de nuestro negocio. Valoramos profundamente cada palabra que ustedes comparten con nosotros, ya que sabemos que sus comentarios y experiencias son fundamentales para nuestro crecimiento.\n\n
+          Creemos firmemente que al escuchar atentamente a nuestros clientes, podemos comprender mejor sus necesidades, expectativas y preocupaciones. Esto nos permite adaptar nuestros servicios y productos para satisfacer de manera más efectiva sus demandas y garantizar su total satisfacción.\n\n
+          Nuestro compromiso con la excelencia se refleja en nuestra disposición a recibir retroalimentación honesta y constructiva. Nos esforzamos por establecer relaciones sólidas y de confianza, demostrando que sus opiniones no solo son escuchadas, sino también valoradas y consideradas en nuestras decisiones.\n\n
+          En Lavalynch, estamos dedicados a proporcionar una experiencia excepcional a nuestros clientes, y su voz es el motor que impulsa nuestro progreso y éxito. Estamos aquí para servirles y mejorar continuamente, porque en última instancia, su satisfacción es nuestra mayor recompensa.'">
+        </app-text>
+      </article>
+    </div>
+  </section>
 
-<div class="container text-center justify-content-center" >
-  <div class="row mt-5" id="reseñas">
-      <div class="col-12 my-2">
-<app-text 
-  [h2]="'Algunas reseñas'" 
-  [p]="'En Lavalynch, la opinión de nuestros clientes es el corazón de nuestro negocio. Valoramos profundamente cada palabra que ustedes comparten con nosotros, ya que sabemos que sus comentarios y experiencias son fundamentales para nuestro crecimiento.\n\n
-  Creemos firmemente que al escuchar atentamente a nuestros clientes, podemos comprender mejor sus necesidades, expectativas y preocupaciones. Esto nos permite adaptar nuestros servicios y productos para satisfacer de manera más efectiva sus demandas y garantizar su total satisfacción.\n\n
-  Nuestro compromiso con la excelencia se refleja en nuestra disposición a recibir retroalimentación honesta y constructiva. Nos esforzamos por establecer relaciones sólidas y de confianza, demostrando que sus opiniones no solo son escuchadas, sino también valoradas y consideradas en nuestras decisiones.\n\n
-  En Lavalynch, estamos dedicados a proporcionar una experiencia excepcional a nuestros clientes, y su voz es el motor que impulsa nuestro progreso y éxito. Estamos aquí para servirles y mejorar continuamente, porque en última instancia, su satisfacción es nuestra mayor recompensa.'">
-</app-text>
-</div>
-</div>
-</div>
-
-
-
-<div class="container mx-auto">
-  <div class="row">
-    <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-     
-        <img src="../assets/res01.png"  class="rounded shadow-sm">
-     
+  <section class="container mx-auto">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
+        <img src="../assets/res01.png" class="rounded shadow-sm" alt="Reseña 01">
+      </div>
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
+        <img src="../assets/res02.png" class="rounded shadow-sm" alt="Reseña 02">
+      </div>
     </div>
 
-    <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-      <img src="../assets/res02.png" class="rounded shadow-sm">
+    <div class="row my-2">
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
+        <img src="../assets/res03.png" class="rounded shadow-sm" alt="Reseña 03">
+      </div>
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
+        <img src="../assets/res04.png" class="rounded shadow-sm" alt="Reseña 04">
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="row my-2">
-    <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-      <img src="../assets/res03.png" class="rounded shadow-sm">
+  <section class="container my-4">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/Captura001.png" class="inst" alt="Captura 001">
+      </div>
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/hobbies02.png" class="inst" alt="Hobbies 02">
+      </div>
+      <div class="col-md-4 col-sm-12 mt-4 d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="../assets/Captura003.png" class="inst" alt="Captura 003">
+      </div>
     </div>
+  </section>
 
-    <div class="col-md-6 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-      <img src="../assets/res04.png" class="rounded shadow-sm">
-    </div>
-  </div>
-</div>
-
-<div class="container my-4">
-<div class="row justify-content-center">
-  <div class="col-md-4 col-sm-12  mt-4  d-flex justify-content-center"data-aos="zoom-out"  data-aos-duration="1000">
-      <img src="../assets/Captura001.png" class="inst">
-  </div>
-  <div class="col-md-4 col-sm-12 mt-4  d-flex justify-content-center"data-aos="zoom-out"  data-aos-duration="1000">
-      <img src="../assets/hobbies02.png" class="inst">
-  </div>
-  <div class="col-md-4 col-sm-12 mt-4  d-flex justify-content-center"data-aos="zoom-out"  data-aos-duration="1000">
-      <img src="../assets/Captura003.png" class="inst">
-  </div>
-</div>
-</div>
-
-<div class="container text-center justify-content-center">
-  <div class="row my-5">
-    <div class="col-12">
-      <h2>Con Lava Lynch tené siempre listas tus prendas favoritas...</h2>
-      <span>Para encontrarnos es fácil, Indalecio Gomez 4190 (Villa Lynch)  (copia y pega en maps)</span>
-      <p data-aos="fade-right" data-aos-delay="250"><br> 📱 Nos escribís o llamas</p>
-      <p data-aos="fade-right" data-aos-delay="500">👉🏻 Te pasamos un presupuesto</p>
-      <p data-aos="fade-right" data-aos-delay="750">🚘 Coordinamos el retiro y la entrega</p>
-      <p data-aos="fade-right" data-aos-delay="1000">😊 Te relajas y esperas a qué llegue todo</p>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div id="formulario-contacto" class="container my-5 mx-auto overlay-black">
-  <div class="row">
+  <section class="container text-center justify-content-center">
+    <div class="row my-5">
       <div class="col-12">
-<app-text 
-  [h2]="'Servicio para Empresas'" 
-  [p]="'En LavaLynch, ofrecemos un servicio personalizado de lavandería que se adapta a tus necesidades específicas. Entendemos la importancia de mantener la ropa limpia y fresca, especialmente en entornos como geriátricos, hospitales y hogares de niños, donde la higiene es fundamental. Por eso, garantizamos resultados impecables y satisfacción del cliente en cada lavado.\n\n
-  Además, brindamos descuentos especiales para empresas del sector de la salud y hogares de niños, como muestra de nuestro compromiso con su labor. Creemos que al proporcionar un servicio de calidad a precios accesibles, podemos contribuir al bienestar de la comunidad y facilitar la labor de aquellos que cuidan de otros.'">
-</app-text>
-</div>
-</div>
-</div>
+        <h2>Con Lava Lynch tené siempre listas tus prendas favoritas...</h2>
+        <p>Para encontrarnos es fácil, Indalecio Gomez 4190 (Villa Lynch) (copia y pega en maps)</p>
+        <p data-aos="fade-right" data-aos-delay="250"><br> 📱 Nos escribís o llamas</p>
+        <p data-aos="fade-right" data-aos-delay="500">👉🏻 Te pasamos un presupuesto</p>
+        <p data-aos="fade-right" data-aos-delay="750">🚘 Coordinamos el retiro y la entrega</p>
+        <p data-aos="fade-right" data-aos-delay="1000">😊 Te relajas y esperas a qué llegue todo</p>
+      </div>
+    </div>
+  </section>
 
+  <section id="formulario-contacto" class="container my-5 mx-auto overlay-black">
+    <div class="row">
+      <article class="formulario-contacto col-12">
+        <app-text 
+          [h2]="'Servicio para Empresas'" 
+          [p]="'En LavaLynch, ofrecemos un servicio personalizado de lavandería que se adapta a tus necesidades específicas. Entendemos la importancia de mantener la ropa limpia y fresca, especialmente en entornos como geriátricos, hospitales y hogares de niños, donde la higiene es fundamental. Por eso, garantizamos resultados impecables y satisfacción del cliente en cada lavado.\n\n
+          Además, brindamos descuentos especiales para empresas del sector de la salud y hogares de niños, como muestra de nuestro compromiso con su labor. Creemos que al proporcionar un servicio de calidad a precios accesibles, podemos contribuir al bienestar de la comunidad y facilitar la labor de aquellos que cuidan de otros.'">
+        </app-text>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
 <app-carousel></app-carousel>
 <app-form></app-form>
 <app-wsp-icon></app-wsp-icon>
 <app-footer></app-footer>
+</footer>
 
 
 
-<router-outlet></router-outlet>
+

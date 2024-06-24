@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lavalynch-2.0": {
+    "lavalynch-rework": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -21,8 +21,9 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+               "src/sitemap.xml",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.css",
@@ -90,8 +91,9 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+               "src/sitemap.xml",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.css"
