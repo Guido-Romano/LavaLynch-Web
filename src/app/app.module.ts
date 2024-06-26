@@ -21,6 +21,7 @@ import { MotionWordsTopComponent } from './motion-words-top/motion-words-top.com
 import { PicturesTopComponent } from './pictures-top/pictures-top.component';
 import { PicturesBottomComponent } from './pictures-bottom/pictures-bottom.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { FrontPageComponent } from './front-page/front-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

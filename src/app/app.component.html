@@ -1,41 +1,48 @@
 
 <header>
-<app-navbar></app-navbar>
-<app-front-page></app-front-page>
-<app-logo></app-logo>
+  <app-navbar aria-label="Barra de navegación"></app-navbar>
+  <app-front-page aria-label="Página principal"></app-front-page>
+  <app-logo aria-label="Logotipo de Lavalynch"></app-logo>
 </header>
 
 <main class="container mt-5">
-  <section id="envio-retiro-domicilio" class="row">
+  <!-- Sección de envío y retiro a domicilio -->
+  <section id="envio-retiro-domicilio" class="row" aria-labelledby="envio-retiro-domicilio-heading">
+    <h2 id="envio-retiro-domicilio-heading" class="sr-only">Envío y Retiro a Domicilio</h2>
     <article class="envio-retiro col-md-8 col-sm-12 my-2">
-      <app-text [h2]="'Visita nuestra lavandería'"
-                [p]="'Te traemos la solución definitiva para el cuidado de tu ropa. Nos encargamos de todo, para que puedas enfocarte en lo que realmente importa de tu día a día. Lavamos tu ropa de forma rápida y eficiente, sin comprometer la calidad de tus prendas.\n\n
-                Somos una empresa familiar con más de 20 años de experiencia. Nos hemos consolidado como expertos en todo tipo de tejidos, lo que nos permite ofrecer resultados impecables a precios verdaderamente accesibles.\n\n
-                Te brindamos un servicio express y personalizado, ya que comprendemos la importancia de tu tiempo y nos esforzamos para ayudarte a simplificar tu vida, ocupándonos de cada detalle.\n\n
-                Nuestro propósito es que puedas disfrutar de prendas impecables mientras te concentras en lo verdaderamente importante.\n\n
-                👉🏻 Lunes a Viernes de 9 a 14 hs y 16 a 18 hs / Sábados (9 a 13 hs)'">
+      <app-text 
+        [h2]="'Visita nuestra lavandería'" 
+        [p]="'Te traemos la solución definitiva para el cuidado de tu ropa. Nos encargamos de todo, para que puedas enfocarte en lo que realmente importa de tu día a día. Lavamos tu ropa de forma rápida y eficiente, sin comprometer la calidad de tus prendas.\n\n
+        Somos una empresa familiar con más de 20 años de experiencia. Nos hemos consolidado como expertos en todo tipo de tejidos, lo que nos permite ofrecer resultados impecables a precios verdaderamente accesibles.\n\n
+        Te brindamos un servicio express y personalizado, ya que comprendemos la importancia de tu tiempo y nos esforzamos para ayudarte a simplificar tu vida, ocupándonos de cada detalle.\n\n
+        Nuestro propósito es que puedas disfrutar de prendas impecables mientras te concentras en lo verdaderamente importante.\n\n
+        👉🏻 Lunes a Viernes de 9 a 14 hs y 16 a 18 hs / Sábados (9 a 13 hs)'">
       </app-text>
     </article>
-    <aside class="map col-md-4 col-sm-12 mt-3 d-flex justify-content-center">
+    <aside class="map col-md-4 col-sm-12 mt-3 d-flex justify-content-center" aria-label="Mapa de ubicación">
       <app-map></app-map>
     </aside>
   </section>
 
-  <section class="row mt-5"> 
+  <!-- Sección de envío y retiro a domicilio -->
+  <section class="row mt-5" aria-labelledby="envio-retiro-domicilio-heading-2"> 
+    <h2 id="envio-retiro-domicilio-heading-2" class="sr-only">Envío y Retiro a Domicilio</h2>
     <article class="envio-retiro-domicilio col-12">
-      <app-text [h2]="'Envío y retiro a Domicilio'"
-                [p]="'Con nuestro servicio de envío y retiro a domicilio, llevar tu ropa a lavar nunca había sido tan fácil y conveniente. Nos destacamos como un servicio verdaderamente excepcional, marcando la diferencia con un enfoque único y una atención incomparable.\n\n
-                Nos encargamos de recoger tus prendas en la puerta de tu hogar y devolvértelas limpias y frescas en el horario que mejor te convenga. Olvídate de perder tiempo en desplazamientos y largas esperas, nosotros nos encargamos de todo el proceso logístico para que solo te preocupes por disfrutar de tus prendas impecables. Además, nuestro compromiso con la puntualidad y la calidad garantiza que cada entrega sea una experiencia sin contratiempos.\n\n🚘 Retiro y entrega a domicilio GRATIS.'">
+      <app-text 
+        [h2]="'Envío y retiro a Domicilio'" 
+        [p]="'Con nuestro servicio de envío y retiro a domicilio, llevar tu ropa a lavar nunca había sido tan fácil y conveniente. Nos destacamos como un servicio verdaderamente excepcional, marcando la diferencia con un enfoque único y una atención incomparable.\n\n
+        Nos encargamos de recoger tus prendas en la puerta de tu hogar y devolvértelas limpias y frescas en el horario que mejor te convenga. Olvídate de perder tiempo en desplazamientos y largas esperas, nosotros nos encargamos de todo el proceso logístico para que solo te preocupes por disfrutar de tus prendas impecables. Además, nuestro compromiso con la puntualidad y la calidad garantiza que cada entrega sea una experiencia sin contratiempos.\n\n🚘 Retiro y entrega a domicilio GRATIS.'">
       </app-text>
     </article>
   </section>
 
-<app-motion-words-top></app-motion-words-top>
+  <!-- Sección de movimiento de palabras y fotos -->
+  <app-motion-words-top aria-label="Palabras en movimiento en la parte superior"></app-motion-words-top>
+  <app-pictures-top aria-label="Fotos en la parte superior"></app-pictures-top>
 
-<app-pictures-top></app-pictures-top>
-
-
-  <section class="container text-center justify-content-center">
+  <!-- Sección de reseñas -->
+  <section class="container text-center justify-content-center" aria-labelledby="reseñas-heading">
+    <h2 id="reseñas-heading" class="sr-only">Reseñas de Clientes</h2>
     <div class="row mt-5" id="reseñas">
       <article class="reseñas col-12 my-2">
         <app-text 
@@ -49,18 +56,21 @@
     </div>
   </section>
 
-  <app-review></app-review>
-  <app-pictures-bottom></app-pictures-bottom>
-   <app-motion-words-bottom></app-motion-words-bottom>
+  <!-- Secciones adicionales -->
+  <app-review aria-label="Reseñas"></app-review>
+  <app-pictures-bottom aria-label="Fotos en la parte inferior"></app-pictures-bottom>
+  <app-motion-words-bottom aria-label="Palabras en movimiento en la parte inferior"></app-motion-words-bottom>
 </main>
 
-<footer>
-  <app-banner-form></app-banner-form>
-<app-carousel></app-carousel>
-<app-form></app-form>
-<app-wsp-icon></app-wsp-icon>
-<app-footer></app-footer>
-</footer>
+<!-- Componentes adicionales -->
+<app-banner-form aria-label="Formulario del banner"></app-banner-form>
+<app-carousel aria-label="Carrusel"></app-carousel>
+<app-form aria-label="Formulario"></app-form>
+<app-wsp-icon aria-label="Icono de WhatsApp"></app-wsp-icon>
+<app-footer aria-label="Pie de página"></app-footer>
+
+
+
 
 
 
