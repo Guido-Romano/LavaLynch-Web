@@ -1,6 +1,9 @@
 #  LavaLynch (lavandería)
 
-![LavaLynch](https://github.com/Guido-Romano/lavalynch-rework/blob/main/src/assets/logo.svg)
+<div align="center">
+  <img src="https://github.com/Guido-Romano/lavalynch-rework/blob/main/src/assets/logo.svg" alt="LavaLynch" width="200">
+</div>
+
 
 ##  Descripción
 
