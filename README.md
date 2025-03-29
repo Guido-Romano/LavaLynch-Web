@@ -1,4 +1,4 @@
-#  LavaLynch - Página Web para Negocio de Limpieza de Prendas
+#  LavaLynch (lavandería)
 
 ![LavaLynch](https://lavalynch.pages.dev/assets/logo.png) 
 
@@ -8,7 +8,7 @@ LavaLynch es una página web diseñada y desarrollada para un negocio local espe
 
 🔗 **Accede a la web aquí:** [LavaLynch](https://lavalynch.pages.dev/)
 
-## 🛠 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 Este proyecto ha sido desarrollado con las siguientes tecnologías:
 
