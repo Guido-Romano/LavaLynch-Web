@@ -6,7 +6,7 @@
 
 LavaLynch es una página web diseñada y desarrollada para un negocio local especializado en la limpieza de prendas textiles. Su objetivo es ofrecer información sobre los servicios de lavado, precios y contacto, proporcionando una experiencia moderna y accesible para los clientes.
 
-🔗 **Accede a la web aquí:** [LavaLynch](https://lavalynch.pages.dev/)
+**Accede a la web aquí:** [LavaLynch](https://lavalynch.pages.dev/)
 
 ##  Tecnologías Utilizadas
 
@@ -16,13 +16,13 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 - **Lenguajes:** HTML5, CSS3 y TypeScript 
 - **Framework CSS:** Bootstrap 
 
-##  Características
+## Características
 
-✅ Diseño responsivo y adaptable 
-✅ Navegación rápida y optimizada 
-✅ Integración con Bootstrap para un diseño atractivo 
-✅ Código modular y escalable 
-✅ Fácil mantenimiento y actualización 
+- ✅ **Diseño responsivo y adaptable**  
+- ✅ **Navegación rápida y optimizada**  
+- ✅ **Integración con Bootstrap para un diseño atractivo**  
+- ✅ **Código modular y escalable**  
+- ✅ **Fácil mantenimiento y actualización**   
 
 ## 📂 Instalación y Uso
 
