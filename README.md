@@ -14,10 +14,15 @@ LavaLynch es una página web diseñada y desarrollada para un negocio local espe
 ##  Tecnologías Utilizadas
 
 Este proyecto ha sido desarrollado con las siguientes tecnologías:
+- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- **Framework Javascript:** Angular 16.2.0 🅰️
-- **Lenguajes:** HTML5, CSS3 y TypeScript 
+- **Framework de Javascript:** Angular 16.2.0
 - **Framework CSS:** Bootstrap 
+- **Lenguajes:** HTML5, CSS3 y TypeScript 
 
 
 ## Características
