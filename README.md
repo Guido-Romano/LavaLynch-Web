@@ -34,6 +34,7 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50" />
 </div>
 
+
 ## Tecnologías Utilizadas
 
 <div align="center">
