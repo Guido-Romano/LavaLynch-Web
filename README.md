@@ -28,7 +28,6 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 
 - ✅ **Diseño responsivo y adaptable**  
 - ✅ **Navegación rápida y optimizada**  
-- ✅ **Integración con Bootstrap para un diseño atractivo**  
 - ✅ **Código modular y escalable**  
 - ✅ **Fácil mantenimiento y actualización**   
 
